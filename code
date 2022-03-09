@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int temp;
+    cout << "Enter your temp: ";
+    cin >> temp; 
+    if(temp >= 41 && temp <= 54){
+        cout << "Stay hydrated";
+    } else if(temp >= 32 && temp <= 40){
+        cout << "Stay Cool and safe!";
+    } else if(temp >= 26 && temp <= 31){
+        cout << "Keep a sunblock handy!";
+    } else if(temp >= 20 && temp <= 25){
+        cout << "Always keep your cool!";
+    } else if(temp <= 20){
+        cout << "Cool breeze in the air!";
+    } else {
+        cout << "The temp is invalid.";
+    }
+}
